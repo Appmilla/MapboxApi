@@ -2,7 +2,7 @@
 
 namespace MapboxApi.Client
 {
-    public class Class1
+    public class DirectionsResponse
     {
     }
 }
