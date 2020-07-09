@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxApi", "MapboxApi\MapboxApi.csproj", "{F1985354-A540-48D4-A185-9C10765F4A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxApi.Client", "MapboxApi.Client\MapboxApi.Client.csproj", "{47634B49-681D-42B5-85B7-630D0C7075DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1985354-A540-48D4-A185-9C10765F4A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1985354-A540-48D4-A185-9C10765F4A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1985354-A540-48D4-A185-9C10765F4A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1985354-A540-48D4-A185-9C10765F4A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47634B49-681D-42B5-85B7-630D0C7075DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47634B49-681D-42B5-85B7-630D0C7075DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47634B49-681D-42B5-85B7-630D0C7075DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47634B49-681D-42B5-85B7-630D0C7075DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
