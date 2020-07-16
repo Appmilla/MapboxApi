@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Api contract models for Mapbox Api</Description>
     <PackageProjectUrl>https://dev.azure.com/appmilla/FindAndExplore</PackageProjectUrl>
