@@ -75,7 +75,7 @@ namespace MapboxApi
 
                 // Need to move access key secure storage
                 _client.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json; charset=utf-8");
-                var response = await _client.GetAsync($"https://api.mapbox.com/directions/v5/mapbox/{routeTypeQueryParameter}/{startLatQueryParameter}%2C{startLonQueryParameter}%3B{endLatQueryParameter}%2C{endLonQueryParameter}?alternatives=false&geometries=geojson&steps=false&access_token=pk.eyJ1Ijoicndvb2xsY290dCIsImEiOiJja2FnaWlsMHQwNnYyMnpvNWhhbTd1OTRiIn0.5pL3D0LvtE8A6Yuz40RhIA");
+                var response = await _client.GetAsync($"https://api.mapbox.com/directions/v5/mapbox/{routeTypeQueryParameter}/{startLonQueryParameter}%2C{startLatQueryParameter}%3B{endLonQueryParameter}%2C{endLatQueryParameter}?alternatives=false&geometries=geojson&steps=false&access_token=pk.eyJ1Ijoicndvb2xsY290dCIsImEiOiJja2FnaWlsMHQwNnYyMnpvNWhhbTd1OTRiIn0.5pL3D0LvtE8A6Yuz40RhIA");
                 result = await response.Content.ReadAsAsync<DirectionsResponse>();
             }
             catch (Exception exception)
